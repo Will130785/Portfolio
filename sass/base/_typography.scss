@@ -1,0 +1,51 @@
+.header__text {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $color-main;
+
+    &--main {
+        display: block;
+        font-size: 6rem;
+        letter-spacing: .75rem;
+        animation: moveInLeft 1s ease-out;
+        text-shadow: 0 2rem 2rem rgba($color-black, .5);
+    }
+
+    &--sub {
+        display: block;
+        font-size: 3rem;
+        letter-spacing: .8rem;
+        animation: moveInRight 1s ease-out;
+        text-shadow: 0 2rem 2rem rgba($color-black, .5);
+    }
+}
+
+.heading {
+    padding-left: 10rem;
+
+    &__text {
+        font-size: 5rem;
+        color: $color-main;
+    }
+}
+
+.paragraph {
+    font-size: 1.6rem;
+    padding: 0 5rem;
+}
+
+.portfolio {
+
+    &__text {
+        box-shadow: 0 1rem 1rem rgba($color-black, .8);
+        margin: 0 5rem;
+        padding: 5rem 0;
+        border-radius: .5rem;
+
+        &--title {
+            padding: 0 5rem;
+            color: $color-main;
+            font-size: 2.5rem;
+        }
+    }
+}

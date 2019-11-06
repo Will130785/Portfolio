@@ -1,0 +1,56 @@
+.row {
+    margin-bottom: 10rem;
+}
+
+.about {
+    position: relative;
+
+    &__img {
+        position: absolute;
+        left: 10rem;
+
+        &--pic {
+            border-radius: 50%;
+
+        }
+    }
+}
+
+.portfolio {
+
+    &__img {
+        padding: 0 5rem;
+        border-radius: .5rem;
+
+        &--pic {
+            width: 100%;
+            transition: all .5s;
+            
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.knowledge {
+
+    &__content {
+        margin-left: 10rem;        
+
+        &--logo {
+            font-size: 5rem;
+            display: block;
+            transition: all 1s;
+
+            &:hover {
+                transform: scale(1.5);
+                color: $color-main;
+            }
+
+            &:not(:last-child) {
+                margin-bottom: .8rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.navbar-dark {
+
+    .navbar-nav {
+        font-size: 1.6rem;
+        padding: 1rem 0;
+        .nav-link {
+            color: $color-main;
+            padding: 0 2rem;
+        }
+    }
+}
